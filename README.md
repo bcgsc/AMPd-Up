@@ -3,7 +3,7 @@
 AMPd-Up is recurrent neural network based tool for _de novo_ antimicrobial peptide sequence generation.
 
 <p align="center">
-	<img src="AMPd-Up.png"> 
+	<img src="AMPd-Up.png">
 </p>
 
 ### Dependencies
@@ -38,8 +38,8 @@ optional arguments:
                         Number of sequences to sample
   -sm SAVE_MODEL, --save_model SAVE_MODEL
                         Prefix of the models if you want to save them; only
-                        specify this argument if you want to sample from
-                        existing models (optional)
+                        specify this argument if you want to sample by
+                        training new models (optional)
   -od OUT_DIR, --out_dir OUT_DIR
                         Output directory (optional)
   -of {fasta,tsv}, --out_format {fasta,tsv}
