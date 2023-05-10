@@ -1,0 +1,12 @@
+name: ampd-up
+channels:
+  - conda-forge
+  - bioconda
+  - anaconda
+  - defaults
+dependencies:
+  - python =3.6
+  - pytorch =1.7.1
+  - numpy
+  - pandas
+  - biopython
