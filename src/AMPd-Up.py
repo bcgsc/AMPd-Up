@@ -243,7 +243,7 @@ def main():
     parser.add_argument('-n', '--num_seq', help="Number of sequences to sample", 
                         type=check_positive_integer, required=True)
     parser.add_argument('-sm', '--save_model', help="Prefix of the models if you want to save them;\
-                        only specify this argument if you want to sample from existing models (optional)", 
+                        only specify this argument if you want to sample by training new models (optional)", 
                        required=False)
     parser.add_argument('-od', '--out_dir', help="Output directory (optional)", 
                         default=os.getcwd(), required=False)
