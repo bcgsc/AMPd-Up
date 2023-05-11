@@ -331,14 +331,14 @@ def main():
             
             # save the model and write the peptide IDs if -sm/--save_model is specified
             if args.save_model is not None:
-                save_dir = args.out_dir + '/' + args.save_model + '_%d_.pt'%(i+1)
+                save_dir = args.out_dir + '/' + args.save_model + '_%d.pt'%(i+1)
                 torch.save(model, save_dir)
                 print("Model %d saved to %s"%(i+1, save_dir))
-                pept_id_temp = ['DeNo_' + args.save_model + '_' + str(k+1).zfill(2) + 
+                pept_id_temp = ['DeNo_' + args.save_model + '_%d_'%(i+1) + str(k+1).zfill(2) + 
                                 '|length=%d'%length_temp[k] + '|charge=%d'%charge_temp[k] + 
                                 '|score=%f'%score_temp[k] + '|%s'%completeness_temp[k] for k in range(20)]
             else:
-                pept_id_temp = ['DeNo_' + 'M%d'%(k+1) + '_' + str(k+1).zfill(2) + 
+                pept_id_temp = ['DeNo_' + 'M%d'%(i+1) + '_' + str(k+1).zfill(2) + 
                                 '|length=%d'%length_temp[k] + '|charge=%d'%charge_temp[k] + 
                                 '|score=%f'%score_temp[k] + '|%s'%completeness_temp[k] for k in range(20)]
                 
