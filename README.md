@@ -1,6 +1,6 @@
 # AMPd-Up
 
-AMPd-Up is recurrent neural network based tool for _de novo_ antimicrobial peptide sequence generation.
+_De novo_ antimicrobial peptide sequence generation with a recurrent neural network
 
 <p align="center">
 	<img src="AMPd-Up.png">
