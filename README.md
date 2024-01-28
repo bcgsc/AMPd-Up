@@ -1,6 +1,6 @@
 # AMPd-Up
 
-_De novo_ antimicrobial peptide sequence generation with a recurrent neural network
+AMPd-Up is recurrent neural network based tool for _de novo_ antimicrobial peptide sequence generation.
 
 <p align="center">
 	<img src="AMPd-Up.png">
@@ -22,7 +22,7 @@ The training set (antibacterial sequences only) and known AMP sequences for sequ
 
 ### Pre-trained models
 
-The 1,000 model instances used to generate the peptide sequences presented in the publication can be accessed on the [Zenodo repository](https://doi.org/10.5281/zenodo.7905591). Users can either choose to use the pre-trained models or train their own models for sequence generation.
+The 1,000 model instances used to generate the peptide sequences presented in the publication can be accessed through the [Zenodo repository](https://doi.org/10.5281/zenodo.7905591). Users can either choose to use the pre-trained models or train their own models for sequence generation.
 
 
 ### Sequence generation
