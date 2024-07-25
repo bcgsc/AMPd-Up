@@ -56,3 +56,9 @@ Chenkai Li (cli@bcgsc.ca)
 ### Contact
 
 If you have any questions, comments, or would like to report a bug, please file a Github issue or contact us.
+
+### Citation
+
+If you use AMPd-Up in your work, please cite our publication:
+> Li, C., Sutherland, D., Richter, A. et al. _De novo_ synthetic antimicrobial peptide design with a recurrent neural network. Protein Science 33, e5088 (2024). https://doi.org/10.1002/pro.5088
+--------------------------------------------------------------------------------
