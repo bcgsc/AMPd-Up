@@ -14,6 +14,29 @@ _De novo_ antimicrobial peptide sequence generation with a recurrent neural netw
 * Pandas
 * Biopython
 
+### Installation
+
+1. Create a new `conda` environment:
+```
+conda create -n ampd-up python=3.6
+```
+
+2. Activate the environment:
+```
+conda activate ampd-up
+```
+
+3. Install AMPd-Up in the environment:
+```
+conda install -c bioconda ampd-up
+```
+`AMPd-Up` can now be run. See usage information below.
+
+4. To deactivate an active environment, use:
+```
+conda deactivate
+```
+
 ### Datasets
 
 The training set (antibacterial sequences only) and known AMP sequences for sequence novelty analysis are stored in the `data` folder.
